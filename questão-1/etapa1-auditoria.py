@@ -1,6 +1,5 @@
 """
-Etapa 1 - Auditoria dos dados BRUTOS (só leitura; não grava nada).
-Serve para decidir, com evidência, quais limpezas são necessárias.
+Etapa 1 - Auditoria dos dados BRUTOS.
 """
 import re
 import pandas as pd

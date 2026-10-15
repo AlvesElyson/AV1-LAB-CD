@@ -1,9 +1,6 @@
 """
 Etapa 4 - Aplicações de aprendizado NÃO supervisionado sobre o dataset numérico (treino).
 
-Os rótulos NÃO são usados para treinar nada aqui. Eles só aparecem para COLORIR gráficos
-e para AVALIAR depois se o que o algoritmo encontrou tem relação com as classes.
-
   Aplicação 1 - Redução de dimensionalidade e visualização (SVD, PCA, t-SNE)
   Aplicação 2 - Agrupamento (K-Means): estrutura de relação e temas de conteúdo
   Aplicação 3 - Modelagem de tópicos (NMF)

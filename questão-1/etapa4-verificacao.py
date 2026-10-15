@@ -1,6 +1,5 @@
 """
-Etapa 4 - Verificação. Cada check imprime OK ou FALHA.
-Rode depois das etapas 2 e 3.
+Etapa 4 - Verificação.
 """
 import json
 import re

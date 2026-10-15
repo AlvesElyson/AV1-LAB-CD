@@ -1,6 +1,5 @@
 """
-Etapa 2 - Gera os arquivos processados em questão-1/dados_processados/.
-Os Parquet originais em PythonProject/dataset/ NÃO são alterados (só lidos).
+Etapa 2
 """
 from preprocessamento import (PASTA_SAIDA, SPLITS, carregar_nlp,
                               carregar_split, preprocessar_dataframe)

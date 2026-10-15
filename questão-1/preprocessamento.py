@@ -1,8 +1,5 @@
 """
 Funções de pré-processamento da Questão 1 (ASSIN ptbr).
-
-Este arquivo NÃO é executado diretamente: ele é importado pelos scripts
-etapa2_preprocessar.py e etapa4_verificacao.py.
 """
 import re
 import unicodedata
@@ -11,16 +8,6 @@ from pathlib import Path
 import pandas as pd
 import spacy
 
-# ----------------------------------------------------------------------
-# Caminhos (mesma convenção do seu main.py)
-# ----------------------------------------------------------------------
-# Estrutura esperada:
-#   PythonProject/            <- PASTA_PROJETO
-#   ├── dataset/              <- PASTA_DATASET (Parquet originais, só leitura)
-#   └── questão-1/            <- PASTA_QUESTAO (este arquivo e as etapas)
-#       └── dados_processados/  <- PASTA_SAIDA (tudo que for gerado)
-# Os caminhos partem da localização DESTE arquivo, não da pasta de onde o
-# script é executado; por isso funcionam em qualquer etapa e em qualquer sistema.
 PASTA_QUESTAO = Path(__file__).resolve().parent
 PASTA_PROJETO = PASTA_QUESTAO.parent
 PASTA_DATASET = PASTA_PROJETO / "dataset"

@@ -1,6 +1,5 @@
 """
 Etapa 5 - Verificação da Questão 2. Cada check imprime OK ou FALHA.
-Rode depois das etapas 1 a 4.
 """
 import json
 import numpy as np

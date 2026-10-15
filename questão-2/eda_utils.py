@@ -1,14 +1,5 @@
 """
 Utilidades compartilhadas da Questão 2 (análise exploratória).
-Não é executado diretamente: é importado pelas etapas.
-
-Estrutura esperada:
-  PythonProject/
-  ├── questão-1/dados_processados/   <- gerado pela Questão 1 (entrada)
-  └── questão-2/                     <- este arquivo e as etapas
-      ├── figuras/                   <- gráficos (.png)
-      ├── resultados/                <- tabelas (.csv)
-      └── dados_numericos/           <- matrizes numéricas (etapa 3)
 """
 from collections import Counter
 from pathlib import Path
